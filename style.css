@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+body{
+	font-family:'Lato', sans-serif;
+
+}
+.outer-box{
+	width:100vw;
+	height:100vh;
+	background:linear-gradient(to top left,#a1109c,#a8f5ff);
+}
+
+.inner-box{
+	width:400px;
+	margin:0 auto;
+	position:relative;
+	top:40%;
+	transform:translatey(-50%);
+	padding:20px 40px;
+	background:linear-gradient(to top left,#ffffffff,#ffffff33);
+	backdrop-filter:blur(8px);
+	border-radius:8px;
+	box-shadow:10px 10px 7px #2773a5;
+	z-index:2;
+}
+
+.signup-header h1{
+	font-size:2.5rem;
+	color:#212121;
+}
+   
+ .signup-header p{
+	font-size:0.8rem;
+	color:#555;
+ } 
+   
+.signup-body{
+    margin:20px 0;
+	   
+   }
+ 
+.signup-body p{
+	margin:10px 0;
+} 
+   
+ .signup-body p label {
+	 display:block;
+	 font-weight:500;
+ }
+   
+.signup-body p input{
+	width:100%;
+	padding:10px;
+	border:2px solid #cccc;
+	border-radius:6px;
+	font-size:0.9rem;
+	margin-top:4px;
+	
+}
+.signup-body p input[type="submit"]{
+	background-color:#3489db;
+	border:transparent;
+	color:white;
+	
+}
+
+
+
+
+.signup-body p input[type="submit"]:hover{
+	background-color:#2773a5;
+	
+
+}
+#submit:hover{
+	letter-spacing:2px;
+	transition:0.25s;
+}
+.signup-footer p{
+	color:#555;
+	text-align:center;
+}
+.signup-footer p a{
+	color:#2773a5
+	
+}   
+
+
+  
+.signup-footer p a:hover{
+	color:red;
+    letter-spacing:1px;
+}  
+.circle{
+	width:200px;
+	height:200px;
+	border-radius:100px;
+	background:linear-gradient(to top right,#ffffff33,#ffffffff);
+	position:absolute;
+	
+}
+
+.c1{
+	top:100px;
+	left:80px;
+	animation:c1 65 linear 1s infinite revers;
+}
+.c1:hover:{
+	
+}
+
+.c2{
+	bottom:120px;
+	right:100px;
+	
+}  
+
+ 
+ #fullname:hover,#password:hover{
+	color:black;
+	border-left-color:red;
+	box-shadow:10px 2px 4px 1px white;
+	font-weight:600;
+	background:linear-gradient(to top right,#e2b2ebaa,#ffffffff); 
+ }
+   
+ #email:hover {
+	 color:black;
+	box-shadow:2px 2px 4px 1px white;
+	font-weight:600;
+	background:linear-gradient(to top left,#5aed90aa,#ffffffff); 
+ }
+ 
+.inner-box:hover{
+	border-radius:red;
+}
